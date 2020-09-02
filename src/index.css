@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  /* border: 1px solid black; */
+}
+
+input {
+  padding: 10px;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  border-radius: 0 !important;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  font-size: 12x;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#filterbar {
+  background-color: #3e4953;
+}
+
+#filterbar2 {
+  background-color: #3e4953;
+}
+
+#hotelimg {
+  object-fit: fill;
+}
+
+#hotelrow {
+  height: 280px;
+  overflow: hidden;
+}
+
+.bg-filter {
+  color: white !important;
+  border-color: #3e4953 !important;
+  background-color: #3e4953 !important;
+}
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #f8ce0b;
+}
+
+.p-fontsize {
+  font-size: small;
+}
+
+#btnMap {
+  position: absolute;
+  bottom: 36px;
+  left: 100px;
+}
+
+#mapFrame {
+  position: absolute;
+  top: 234px;
+}
